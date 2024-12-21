@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        button {
+            margin-left: 150px;
+            margin-bottom: 10px;
+            padding: 10px, 20px;
+            background-color: rgb(255, 187, 0);
+            height:40px;
+            width:80px;
+        }
+
+        .main-card {
+            display: flex;
+            gap: 27px;
+            margin-top: 10px;
+            justify-content: center;
+        }
+
+        .card {
+            height: 350px;
+            width: 250px;
+            border: 1px solid black;
+        }
+
+        h3,
+        p {
+            text-align: center;
+        }
+
+        @media screen and (max-width:500px) {
+            .main-body {
+                padding: 10px;
+            }
+
+            button {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .head-img img {
+                width: 100%;
+                height: auto;
+            }
+
+            .main-card {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .card {
+                height: auto;
+                width: 100%;
+            }
+
+            .card img {
+                width: 100%;
+                height: auto;
+                border-bottom: 1px solid black;
+            }
+
+            h3,
+            p {
+                font-size: 14px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <button type="menu">Profile</button> <br>
+    <div class="main-body">
+        <div class="head-img">
+            <img src="https://www.freewebheaders.com/wp-content/gallery/dogs/cache/yellow-labrador-puppies-in-garden-web-header.jpg-nggid042790-ngg0dyn-1280x375x100-00f0w010c010r110f110r010t010.jpg"
+                alt="" height="350px" width="1090px;">
+
+            <div class="main-card">
+                <div class="card">
+                    <img src="https://www.revivalanimal.com/_next/image?url=https%3A%2F%2Fwp.revivalanimal.org%2Fapp%2Fuploads%2F2022%2F08%2FBowed-Legs-in-Puppies.webp&w=3840&q=75"
+                        alt="" height="200px" width="250px">
+                    <h3>Puppy</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsam?</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.revivalanimal.com/_next/image?url=https%3A%2F%2Fwp.revivalanimal.org%2Fapp%2Fuploads%2F2022%2F08%2FBowed-Legs-in-Puppies.webp&w=3840&q=75"
+                        alt="" height="200px" width="250px">
+                    <h3>Puppy</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsam?</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.revivalanimal.com/_next/image?url=https%3A%2F%2Fwp.revivalanimal.org%2Fapp%2Fuploads%2F2022%2F08%2FBowed-Legs-in-Puppies.webp&w=3840&q=75"
+                        alt="" height="200px" width="250px">
+                    <h3>Puppy</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsam?</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.revivalanimal.com/_next/image?url=https%3A%2F%2Fwp.revivalanimal.org%2Fapp%2Fuploads%2F2022%2F08%2FBowed-Legs-in-Puppies.webp&w=3840&q=75"
+                        alt="" height="200px" width="250px">
+                    <h3>Puppy</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsam?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
